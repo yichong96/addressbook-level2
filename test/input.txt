@@ -103,8 +103,15 @@
   find Betsy
   # find multiple with same keyword
   find Dickson
+  # find keywords with substrings
+  find Char
+  # find keywords with names and substrings. Only one person's name will be contained.
+  find Char Betsy
+  # find Char Betsy
   # find multiple with some keywords
   find Charlie Betsy
+
+
 
 ##########################################################
 # test delete person command
